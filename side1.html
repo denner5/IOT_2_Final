@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+  </head>
+  <body>
+
+    <Section class="header">
+      <div class="pic"><img src="{{url_for('static', filename='oekologo.png')}}"/></div>
+      <div><h2>Dagens datovare</h2></div> 
+      <div class="pic"><img src="{{url_for('static', filename='logo2.png')}}"/></div>
+    </section>
+
+    <section class="content">
+      <div class="cont_pic"><img src="{{url_for('static', filename='guleroots.png')}}"/></div>
+      <div class="cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam cum dolore tempore ab molestiae, quos, atque fugiat labore, porro sint soluta delectus iusto itaque voluptatem dolor odit aliquid consequuntur?</div>
+      <div class="cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam cum dolore tempore ab molestiae, quos, atque fugiat labore, porro sint soluta delectus iusto itaque voluptatem dolor odit aliquid consequuntur?</div>
+    </section>
+
+    <section class="content">
+      <div class="cont_pic"><img src="{{url_for('static', filename='rugbrot.png')}}"/></div>
+      <div class="cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam cum dolore tempore ab molestiae, quos, atque fugiat labore, porro sint soluta delectus iusto itaque voluptatem dolor odit aliquid consequuntur?</div>
+      <div class="cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam cum dolore tempore ab molestiae, quos, atque fugiat labore, porro sint soluta delectus iusto itaque voluptatem dolor odit aliquid consequuntur?</div>
+    </section>
+
+    <div class="knap">
+      <a href="{{ url_for('home')}}">Home</a>
+      <a href="{{ url_for('datasheet')}}">Datasheet</a>
+    </div>
+
+
+
+
+
+
+  </body>
+</html>
